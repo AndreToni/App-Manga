@@ -1,7 +1,7 @@
 import styled from 'styled-components/native';
-//import { StyleSheet } from 'react-native';
+import { StyleSheet } from 'react-native';
 
-export const Container = styled.ScrollView.attrs(() => ({
+/*export const Container = styled.ScrollView.attrs(() => ({
     horizontal: true,
     showsHorizontalScrollIndicator:false,
     contentContainerStyle:{
@@ -23,7 +23,7 @@ export const Container = styled.ScrollView.attrs(() => ({
     ReleasesOfTheDayCard:{
         elevation:1,
     }
-})*/
+})
 
 export const ReleasesOfTheDayCard = styled.TouchableOpacity`
     border-top-left-radius: 11px;
@@ -55,4 +55,4 @@ export const ReleasesOfTheDayCardFooterText = styled.Text`
     align-items: center;
     
     color: #E0E5EB;
-`;
+`;*/
