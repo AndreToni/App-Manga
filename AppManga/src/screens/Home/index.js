@@ -13,7 +13,7 @@ import {
     Barra    
 } from './styles';
 
-//import Header from '../../components/Header';
+import Header from '../../components/Header';
 import Releases from '../../components/Releases';
 import MostRead from '../../components/MostRead';
 import Recommended from '../../components/Recommended';
@@ -21,9 +21,16 @@ import Recommended from '../../components/Recommended';
 export default function Home() {
     return (
         <Wrapper>
-            
+            <Header />
             <Container>
-                <Releases/>
+                
+                <BoxTitle1>
+                    <Line1 style={{elevation: 5}}>
+                        <Title>Releases of the day</Title>
+                    </Line1>
+                </BoxTitle1>
+                
+                <Releases />
                 <BoxTitle2>
                     <Line2 style={{elevation: 5}}>
                         <Title>Most read of the month</Title>
